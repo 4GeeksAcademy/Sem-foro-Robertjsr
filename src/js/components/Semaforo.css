@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+/* Estilo para el contenedor del semáforo */
+.container {
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 150px;
+}
+/* Unificamos las propiedades comunes de las luces */
+.redLight,
+.yellowLight,
+.greenLight {
+    border-radius: 50%;
+    width: 100px;       /* Ajusta el ancho a un valor menor al contenedor */
+    height: 100px;      /* Altura igual al ancho para que sean círculos */
+    margin: 10px 0;     /* Espaciado vertical entre luces */
+}
+
+.redLight {
+    background-color: red;
+}
+.yellowLight {
+    background-color: yellow;
+}
+.greenLight {
+    background-color: green;
+}
+/* estilos para boton */
+.boton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espacio entre el semáforo y los botones */
+    gap: 10px; /* Espaciado opcional entre botones */
+}
