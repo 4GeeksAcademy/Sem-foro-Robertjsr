@@ -40,3 +40,15 @@ body {
     margin-top: 20px; /* Espacio entre el semáforo y los botones */
     gap: 10px; /* Espaciado opcional entre botones */
 }
+/* estilos para la luz */
+.lightOn {
+    box-shadow: 5px 5px 30px yellow; /* Luz encendida */
+}
+/* estilos para nuestra luz purpura */
+.purpleLight {
+    background-color: rgb(118, 0, 253);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
